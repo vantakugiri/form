@@ -1,0 +1,49 @@
+h2{
+    text-align: center;
+}
+form{
+    padding:10px;
+    height:550px;
+    border-radius:20px;
+    margin-left:500px ;
+    margin-right:500px ;
+    background-color:olive;
+}
+label{
+    display:block;
+    margin:4px;
+    font-weight:bold;
+}
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=password],
+textarea{
+    padding:10px;
+    border:2px solid whitesmoke;
+    border-radius:20px;
+    width:100%;
+    margin: bottom 5px;
+}
+select{
+    width:100%px;
+    padding:10px;
+    border:2px solid whitesmoke;
+    border-radius:5px;
+    margin-bottom:20px;
+
+}
+input[type="submit"]{
+    color:aliceblue;
+    background-color: green;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: blue;
+} 
+.container{
+    width:400px;
+    margin:auto;
+    height:400px;
+}   
